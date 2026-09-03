@@ -9,6 +9,10 @@ https://github.com/WingsMaker/databricks_books/blob/main/Lakebase-For-Dummies.pd
 https://github.com/WingsMaker/databricks_books/blob/main/hands-on-guide-apps-databricks.md<br>
 https://github.com/WingsMaker/databricks_books/blob/main/hands-on-guide-apps-databricks.pdf<br>
 <br>
+**O'Reilly - Delta Lake: Up and Running**<br>
+https://github.com/WingsMaker/databricks_books/blob/main/delta-lake-up-and-running_er2.pdf<br>
+<br>
+<br>
 **More books**<br>
 **https://www.databricks.com/resources?_sft_resource_type=ebooks<br>
 <br>
