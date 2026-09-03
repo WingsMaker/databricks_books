@@ -26,9 +26,9 @@ Databricks addresses these challenges by combining:
 |-------------------|---------------------------|
 |Databricks Apps	|Hosts web apps serverlessly|
 |Lakebase	Transactional |PostgreSQL database|
-Unity Catalog	Governance and access control
-Databricks Asset Bundles (DABs)	Infrastructure-as-code deployment
-AI Agent Framework	Production deployment of AI agents
+|Unity Catalog	|Governance and access control|
+|Databricks Asset Bundles (DABs)	|Infrastructure-as-code deployment|
+|AI Agent Framework	|Production deployment of AI agents|
 
 Together they provide a unified platform for analytics, operational applications, and AI solutions.
 
