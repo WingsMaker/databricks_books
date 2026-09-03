@@ -75,7 +75,6 @@ Both share a common storage foundation, eliminating most synchronization challen
 
 ## How Databricks Lakebase Works
 ### Serverless Compute
-
 Lakebase provides:
 
 Elastic scaling
@@ -176,7 +175,6 @@ Improved AI adoption
 Better operational efficiency
 
 ## The Ten Main Reasons to Adopt Lakebase
-
 The final chapter summarizes the value proposition:
 
 Eliminate split-stack architecture.
@@ -190,6 +188,5 @@ Govern all data consistently via Unity Catalog.
 Avoid vendor lock-in through PostgreSQL and open standards.
 Simplify the overall technology stack.
 
-## One-Sentence Takeaway
-
+### One-Sentence Takeaway
 The book's central message is that Lakebase extends the Databricks lakehouse into operational databases, enabling applications, analytics, and AI to run on a unified, serverless PostgreSQL platform with shared storage, simplified governance, and reduced data movement.
