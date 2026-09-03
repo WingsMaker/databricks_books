@@ -1,12 +1,13 @@
-Summary of Lakebase-For-Dummies.pdf
-Executive Summary
+# Summary of Lakebase-For-Dummies.pdf
+
+## Executive Summary
 
 Lakebase For Dummies, Databricks Special Edition introduces Lakebase, a new database category from Databricks that combines operational databases, analytics, and AI workloads on a single platform. The book argues that traditional architectures, which separate transactional databases (OLTP) from analytics platforms (OLAP), create costly data pipelines, duplicated data, governance complexity, and delays that are increasingly problematic for modern AI applications.
 
 Lakebase is presented as a serverless PostgreSQL database built on top of the Databricks lakehouse architecture, with separated compute and storage, automatic scaling, database branching, and native integration with analytics and AI workloads.
 
-Key Concepts
-1. The Problem with Traditional Database Architectures
+## Key Concepts
+### 1. The Problem with Traditional Database Architectures
 
 Most organizations maintain:
 
@@ -23,7 +24,7 @@ Delayed analytics data
 
 According to the book, AI agents and real-time applications make these limitations much more apparent because they require immediate access to current data and can create database environments at machine scale.
 
-2. What Is a Lakebase?
+### 2. What Is a Lakebase?
 
 The book defines a Lakebase as a database that unifies:
 
@@ -40,7 +41,8 @@ Separation of compute and storage
 Serverless scaling
 Database branching similar to Git
 Designed for AI-agent scale
-3. Architectural Innovation: Separate Compute and Storage
+
+### 3. Architectural Innovation: Separate Compute and Storage
 
 Traditional databases bundle storage and compute together.
 
@@ -57,7 +59,8 @@ Lower infrastructure costs
 Better scalability
 Faster provisioning
 Reduced overprovisioning
-4. Lakebase + Lakehouse
+
+### 4. Lakebase + Lakehouse
 
 The book stresses that Lakebase does not replace the lakehouse.
 
@@ -70,7 +73,7 @@ Historical analysis	Operational queries
 
 Both share a common storage foundation, eliminating most synchronization challenges.
 
-How Databricks Lakebase Works
+## How Databricks Lakebase Works
 Serverless Compute
 
 Lakebase provides:
