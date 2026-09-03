@@ -136,7 +136,8 @@ OAuth instead of PATs
 CI/CD pipelines
 Caching
 Monitoring and alerts
-Chapter 3: The Transactional Foundation for Intelligent Applications
+
+## Chapter 3: The Transactional Foundation for Intelligent Applications
 
 This chapter builds a holiday approval application for managers.
 
@@ -169,7 +170,7 @@ Real-time operational systems
 
 using the same platform as analytics and AI.
 
-Chapter 4: Turning Analytics into Applications
+## Chapter 4: Turning Analytics into Applications
 
 Focuses on Reverse ETL.
 
@@ -219,7 +220,7 @@ Key Takeaway
 
 Lakebase transforms reverse ETL from a complex engineering problem into a built-in platform capability.
 
-Chapter 5: Delivering Secure, Real-Time Applications on Databricks
+## Chapter 5: Delivering Secure, Real-Time Applications on Databricks
 
 This chapter demonstrates deploying a Streamlit dashboard backed by Lakebase.
 
@@ -253,7 +254,8 @@ Allows apps to:
 Connect directly to Lakebase
 Use inherited security policies
 Surface real-time data quickly
-Chapter 6: AI Agents with Conversational Memory
+
+## Chapter 6: AI Agents with Conversational Memory
 
 The most advanced chapter demonstrates building a stateful cybersecurity AI agent.
 
@@ -308,7 +310,7 @@ Key Takeaway
 
 Lakebase becomes the memory layer for enterprise AI agents, enabling long-running workflows without introducing additional databases.
 
-Top 10 Key Takeaways
+## Top 10 Key Takeaways
 
 Databricks Apps provides serverless application hosting.
 
