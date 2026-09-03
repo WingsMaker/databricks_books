@@ -48,17 +48,15 @@ Build interactive applications
 Handle user inputs
 Integrate operational workflows
 Deploy securely to production
-Databricks Solution
 
-Databricks Apps
-
+### Databricks Solution
+#### Databricks Apps
 Serverless hosting
 Supports Streamlit, Dash, Flask, FastAPI, React
 Built-in authentication
 Unity Catalog integration
 
-Lakebase
-
+#### Lakebase
 Managed PostgreSQL
 Real-time transactional access
 Automatic synchronization with Unity Catalog
