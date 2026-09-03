@@ -74,7 +74,7 @@ Historical analysis	Operational queries
 Both share a common storage foundation, eliminating most synchronization challenges.
 
 ## How Databricks Lakebase Works
-Serverless Compute
+### Serverless Compute
 
 Lakebase provides:
 
@@ -89,11 +89,12 @@ Development environments
 Testing environments
 AI agent workloads
 Applications with variable traffic
-Data Durability
+
+## Data Durability
 
 Lakebase uses PostgreSQL's write-ahead logging (WAL) along with Neon technology's "Safekeepers" to ensure committed transactions are not lost even if compute instances fail.
 
-Unified Data Foundation
+## Unified Data Foundation
 
 Because operational and analytical workloads share underlying storage:
 
@@ -101,7 +102,8 @@ Analytics sees operational changes quickly.
 AI models can access current data.
 Organizations reduce data silos.
 Data consistency improves.
-Governance Through Unity Catalog
+
+## Governance Through Unity Catalog
 
 The governance model is unified through Unity Catalog:
 
@@ -112,7 +114,7 @@ Compliance monitoring
 
 This provides a single governance layer across databases, data lakes, analytics, and AI systems.
 
-AI as a Major Driver
+## AI as a Major Driver
 
 A central theme of the book is that database architecture must evolve for AI agents.
 
@@ -130,7 +132,8 @@ Copy-on-write database branching
 PostgreSQL compatibility
 pgvector support for vector search
 Fast creation and deletion of environments
-Developer Experience
+
+## Developer Experience
 
 The book emphasizes that teams do not need to learn a new database model.
 
@@ -140,7 +143,8 @@ Standard PostgreSQL drivers
 Existing SQL knowledge remains valid
 Existing ORMs continue to work
 Familiar development workflows
-Database Branching
+
+## Database Branching
 
 One standout feature is database branching:
 
@@ -152,7 +156,7 @@ Enable AI experimentation on production-like data
 
 The authors compare this experience to branching code in Git.
 
-Business Benefits Highlighted
+## Business Benefits Highlighted
 
 The book repeatedly claims that Lakebase can:
 
@@ -170,7 +174,8 @@ Faster application development
 Reduced engineering overhead
 Improved AI adoption
 Better operational efficiency
-The Ten Main Reasons to Adopt Lakebase
+
+## The Ten Main Reasons to Adopt Lakebase
 
 The final chapter summarizes the value proposition:
 
@@ -184,6 +189,7 @@ Build a future-proof architecture.
 Govern all data consistently via Unity Catalog.
 Avoid vendor lock-in through PostgreSQL and open standards.
 Simplify the overall technology stack.
-One-Sentence Takeaway
+
+## One-Sentence Takeaway
 
 The book's central message is that Lakebase extends the Databricks lakehouse into operational databases, enabling applications, analytics, and AI to run on a unified, serverless PostgreSQL platform with shared storage, simplified governance, and reduced data movement.
