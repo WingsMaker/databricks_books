@@ -1,7 +1,11 @@
 # databricks_books
-ebooks on databricks :<br>
-https://www.databricks.com/resources?_sft_resource_type=ebooks<br>
-<br>
-<br>
-Databricks DevHub<br>
-https://developers.databricks.com/docs/start-here<br>
+ebooks on databricks
+
+**Lakebase For Dummies**
+https://github.com/WingsMaker/databricks_books/blob/main/Lakebase-For-Dummies.md
+
+**More books
+**https://www.databricks.com/resources?_sft_resource_type=ebooks
+
+**Databricks DevHub
+**https://developers.databricks.com/docs/start-here
