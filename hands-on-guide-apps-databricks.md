@@ -224,31 +224,32 @@ Lakebase transforms reverse ETL from a complex engineering problem into a built-
 
 This chapter demonstrates deploying a Streamlit dashboard backed by Lakebase.
 
-Technologies Used
+### Technologies Used
 Streamlit
 SQLAlchemy
 Databricks SDK
 PostgreSQL (Lakebase)
 GitHub
 Databricks Asset Bundles
-Major Lessons
-Secure Authentication
+
+### Major Lessons
+#### Secure Authentication
 
 OAuth-based authentication:
 
 Token refresh automatically handled
 No credential management
 No manual security work
-CI/CD
 
+#### CI/CD
 DABs support:
 
 Version control
 Automated deployment
 Rollback
 Environment promotion
-Databricks Apps
 
+#### Databricks Apps
 Allows apps to:
 
 Connect directly to Lakebase
@@ -259,7 +260,7 @@ Surface real-time data quickly
 
 The most advanced chapter demonstrates building a stateful cybersecurity AI agent.
 
-Core Problem
+### Core Problem
 
 Most AI chatbots are stateless.
 
@@ -271,12 +272,12 @@ Investigation context
 
 This limits real-world usefulness.
 
-Solution
+### Solution
 
 Lakebase stores agent memory.
 
 Components:
-
+<pre>
 Databricks Model Serving
         ↓
       LangGraph
@@ -286,8 +287,9 @@ Unity Catalog Tools
       Lakebase
         ↓
  Databricks Apps UI
+</pre>
 
-Role of Lakebase
+### Role of Lakebase
 
 Acts as a checkpoint store.
 
@@ -300,38 +302,39 @@ Thread history
 
 This enables conversations to resume later with full context.
 
-Supporting Technologies
-LangGraph
-MLflow
-Databricks Agent Framework
-Unity Catalog functions
-Streamlit Apps
-Key Takeaway
+### Supporting Technologies
+. LangGraph
+. MLflow
+. Databricks Agent Framework
+. Unity Catalog functions
+. Streamlit Apps
+
+### Key Takeaway
 
 Lakebase becomes the memory layer for enterprise AI agents, enabling long-running workflows without introducing additional databases.
 
 ## Top 10 Key Takeaways
 
-Databricks Apps provides serverless application hosting.
+1. Databricks Apps provides serverless application hosting.
 
-Lakebase adds PostgreSQL transactional capabilities directly to Databricks.
+2. Lakebase adds PostgreSQL transactional capabilities directly to Databricks.
 
-Unity Catalog governance extends to applications and operational data.
+3. Unity Catalog governance extends to applications and operational data.
 
-Synced Tables eliminate most custom ETL and reverse ETL pipelines.
+4. Synced Tables eliminate most custom ETL and reverse ETL pipelines.
 
-Databricks Asset Bundles enable Infrastructure as Code deployments.
+5. Databricks Asset Bundles enable Infrastructure as Code deployments.
 
-OAuth-based access is the recommended security model.
+6. OAuth-based access is the recommended security model.
 
-Applications can be built using familiar frameworks (React, FastAPI, Streamlit, Flask, Dash).
+7. Applications can be built using familiar frameworks (React, FastAPI, Streamlit, Flask, Dash).
 
-Lakebase bridges analytical and operational workloads on one platform.
+8. Lakebase bridges analytical and operational workloads on one platform.
 
-AI agents can persist conversational memory using Lakebase.
+9. AI agents can persist conversational memory using Lakebase.
 
-The overall goal is to take a team from notebook → application → production → AI agent without leaving Databricks.
+10. The overall goal is to take a team from notebook → application → production → AI agent without leaving Databricks.
 
-One-Sentence Summary
+### One-Sentence Summary
 
 The book demonstrates how Databricks Apps + Lakebase + Unity Catalog + Databricks Asset Bundles form a unified platform that lets organizations build, deploy, secure, and scale transactional applications and AI agents directly on Databricks without separate infrastructure or custom data pipelines.
