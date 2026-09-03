@@ -1,8 +1,9 @@
 # databricks_books<br>
 ebooks on databricks<br>
 <br>
-**Lakebase For Dummies**
+**Lakebase For Dummies**<br>
 https://github.com/WingsMaker/databricks_books/blob/main/Lakebase-For-Dummies.md<br>
+https://github.com/WingsMaker/databricks_books/blob/main/Lakebase-For-Dummies.pdf<br>
 <br>
 **A hands on guide apps databricks**<br>
 https://github.com/WingsMaker/databricks_books/blob/main/hands-on-guide-apps-databricks.pdf<br>
