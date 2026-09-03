@@ -1,4 +1,4 @@
-Summary of hands-on-guide-apps-databricks.pdf
+# Summary of hands-on-guide-apps-databricks.pdf
 
 This guide is a practical handbook on how to build, deploy, and operate data applications, AI applications, and AI agents entirely within the Databricks Data Intelligence Platform using two key services:
 
@@ -9,7 +9,7 @@ The book's central message is:
 
 Move from notebooks and analytics to production-grade applications without managing separate infrastructure, databases, ETL pipelines, authentication systems, or deployment tooling.
 
-Executive Summary
+## Executive Summary
 
 Traditional data projects often stop at notebooks, dashboards, or ML models because turning them into production applications requires:
 
@@ -30,7 +30,7 @@ AI Agent Framework	Production deployment of AI agents
 
 Together they provide a unified platform for analytics, operational applications, and AI solutions.
 
-Chapter 1: Introduction to Building Apps on Databricks
+## Chapter 1: Introduction to Building Apps on Databricks
 
 The guide explains why organizations struggle to deliver AI and analytics to end-users.
 
@@ -61,7 +61,8 @@ Managed PostgreSQL
 Real-time transactional access
 Automatic synchronization with Unity Catalog
 ACID transaction support
-Chapter 2: From Notebooks to Production Applications
+
+## Chapter 2: From Notebooks to Production Applications
 
 This chapter demonstrates a complete application architecture using a NYC taxi trip dashboard.
 
