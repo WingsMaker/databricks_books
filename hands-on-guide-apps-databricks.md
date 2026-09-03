@@ -174,7 +174,7 @@ using the same platform as analytics and AI.
 
 Focuses on Reverse ETL.
 
-What is Reverse ETL?
+### What is Reverse ETL?
 
 Move refined data from:
 
@@ -188,13 +188,13 @@ User-facing services
 
 so insights drive actions.
 
-Problems with Traditional Reverse ETL
+### Problems with Traditional Reverse ETL
 Fragile pipelines
 Multiple systems
 Security inconsistencies
 High maintenance costs
-Lakebase Approach
 
+### Lakebase Approach
 Lakebase provides:
 
 Managed synchronization
@@ -202,21 +202,23 @@ PostgreSQL compatibility
 Governance integration
 Low latency
 High scalability
-Example Application
+
+### Example Application
 
 An intelligent support portal that combines:
 
-ML-generated insights
+#### ML-generated insights
 Escalation predictions
 Recommended actions
-User-generated state
+
+#### User-generated state
 Ownership
 Status
 Comments
 
 Lakebase stores both and keeps everything synchronized.
 
-Key Takeaway
+### Key Takeaway
 
 Lakebase transforms reverse ETL from a complex engineering problem into a built-in platform capability.
 
