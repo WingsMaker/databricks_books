@@ -6,6 +6,7 @@ https://github.com/WingsMaker/databricks_books/blob/main/Lakebase-For-Dummies.md
 https://github.com/WingsMaker/databricks_books/blob/main/Lakebase-For-Dummies.pdf<br>
 <br>
 **A hands on guide apps databricks**<br>
+https://github.com/WingsMaker/databricks_books/blob/main/hands-on-guide-apps-databricks.md<br>
 https://github.com/WingsMaker/databricks_books/blob/main/hands-on-guide-apps-databricks.pdf<br>
 <br>
 **More books**<br>
