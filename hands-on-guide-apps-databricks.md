@@ -22,7 +22,8 @@ Governance controls
 
 Databricks addresses these challenges by combining:
 
-Component	PurposeDatabricks Apps	Hosts web apps serverlessly
+|Component	|Purpose|
+|Databricks Apps	|Hosts web apps serverlessly|
 Lakebase	Transactional PostgreSQL database
 Unity Catalog	Governance and access control
 Databricks Asset Bundles (DABs)	Infrastructure-as-code deployment
