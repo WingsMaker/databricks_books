@@ -68,10 +68,10 @@ ACID transaction support
 
 This chapter demonstrates a complete application architecture using a NYC taxi trip dashboard.
 
-Architecture
+### Architecture
 
 Data flow:
-
+<pre>
 Unity Catalog Delta Table
           ↓
     Synced Table
@@ -81,15 +81,16 @@ Unity Catalog Delta Table
       FastAPI
           ↓
        React UI
-
+</pre>
 
 All components are deployed through:
 
+<pre>
 Databricks Asset Bundles (DABs)
+</pre>
 
-Key Lessons
-Lakebase Synced Tables
-
+### Key Lessons
+#### Lakebase Synced Tables
 Automatically mirror Delta tables into PostgreSQL.
 
 Benefits:
@@ -98,16 +99,16 @@ No custom ETL
 Near real-time updates
 Governed access
 Operational performance
-Databricks Apps
 
+#### Databricks Apps
 Provides:
 
 Automatic service principals
 OAuth authentication
 Secure database connections
 Serverless app hosting
-DABs (Databricks Asset Bundles)
 
+#### DABs (Databricks Asset Bundles)
 Everything is managed as code:
 
 Applications
@@ -116,32 +117,36 @@ Sync configurations
 Deployment settings
 
 Result:
+<pre>
 
 databricks bundle deploy
+          
+</pre>
 
 
 deploys the entire stack.
 
-Best Practices
+### Best Practices
 
 Choose synchronization modes carefully:
 
-Mode	Best ForSnapshot	Batch updates
-Triggered	Scheduled refreshes
-Continuous	Real-time systems
+|Mode	|Best For|
+|---------|----------------|
+|Snapshot	|Batch updates|
+|Triggered	|Scheduled refreshes|
+|Continuous	|Real-time systems|
 
 Use:
-
-OAuth instead of PATs
-CI/CD pipelines
-Caching
-Monitoring and alerts
+. OAuth instead of PATs
+. CI/CD pipelines
+. Caching
+. Monitoring and alerts
 
 ## Chapter 3: The Transactional Foundation for Intelligent Applications
 
 This chapter builds a holiday approval application for managers.
 
-Main Idea
+### Main Idea
 
 Lakebase extends the lakehouse with:
 
@@ -152,14 +157,15 @@ Application state management
 
 without requiring an external transactional database.
 
-Demonstrated Workflow
+### Demonstrated Workflow
 Create Lakebase instance
 Create Databricks App
 Define tables
 Grant permissions
 Connect securely
 Read/update data via SQLAlchemy
-Key Takeaway
+
+### Key Takeaway
 
 Lakebase enables:
 
