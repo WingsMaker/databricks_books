@@ -14,8 +14,6 @@ ebooks on databricks<br>
 <a href='https://github.com/WingsMaker/databricks_books/blob/main/delta-lake-up-and-running_er2.pdf'>PDF version</a><br>
 <br>
 <br>
-**More books**<br>
-**https://www.databricks.com/resources?_sft_resource_type=ebooks<br>
+<a href='https://www.databricks.com/resources?_sft_resource_type=ebooks'>More book</a><br>
 <br>
-**Databricks DevHub**<br>
-https://developers.databricks.com/docs/start-here<br>
+<a href='https://developers.databricks.com/docs/start-here'>Databricks DevHub</a><br>
