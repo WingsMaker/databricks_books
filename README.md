@@ -10,6 +10,7 @@ ebooks on databricks<br>
 <a href='https://github.com/WingsMaker/databricks_books/blob/main/hands-on-guide-apps-databricks.pdf'>PDF version</a><br>
 <br>
 **O'Reilly - Delta Lake: Up and Running**<br>
+<a href='https://github.com/WingsMaker/databricks_books/blob/main/delta-lake-up-and-running_er2.md'>Summary</a>
 <a href='https://github.com/WingsMaker/databricks_books/blob/main/delta-lake-up-and-running_er2.pdf'>PDF version</a><br>
 <br>
 <br>
